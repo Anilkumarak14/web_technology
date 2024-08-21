@@ -1,0 +1,11 @@
+div{
+    width: 50vh;
+    height: 50vh;
+    overflow: scroll;
+}
+p{
+    height: 30vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth
+}

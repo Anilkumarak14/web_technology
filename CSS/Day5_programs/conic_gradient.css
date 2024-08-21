@@ -1,0 +1,24 @@
+/* #conic {
+    width: 400px;
+    height: 400px;
+    background-image: url(../../Assets/images/sun.png),conic-gradient(#a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+} */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#conic {
+    width: 400px;
+    height: 400px;
+    background-image: url(../../Assets/images/sun.png), conic-gradient(#a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300, #8e08f4, #a8f300);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    animation: rotate 10s linear infinite; /* Adjust the duration as needed */
+}

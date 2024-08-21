@@ -1,0 +1,22 @@
+a:link {
+    color: blue;
+    background-color: lightblue;
+}
+
+a:visited {
+    color: purple;
+    background-color: lavender;
+}
+
+a:hover {
+    color: red;
+    background-color: yellow;
+}
+
+a:active {
+    color: green;
+    background-color: lightgreen;
+}
+a{
+    font-size: 50px;
+}

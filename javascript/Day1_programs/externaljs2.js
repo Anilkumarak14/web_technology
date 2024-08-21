@@ -1,0 +1,1 @@
+document.getElementById("tag2").innerHTML="<b>this is external js"

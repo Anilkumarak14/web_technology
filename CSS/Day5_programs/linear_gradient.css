@@ -1,0 +1,18 @@
+#container{
+    width: 75%;
+    height: 500px;
+    background-image:linear-gradient(45deg,#FF6F61 30%, #6B5B95 30% 40%, #88B04B 40% 60%, #F7CAC9 60% 70%, #92A8D1 70% 80%, #955251 80% 90%, #B565A7 90% 100%);
+}
+#naruto{
+    width: 72%;
+    height: 800px;
+    background-image:  linear-gradient(120deg, #FFCC00,transparent, #FFA500),url(../../Assets/images/Naruto.webp);
+    background-size: 100vh 100vh;
+    background-repeat: no-repeat;
+}
+#ak{
+    width: 50vh;
+    height: 50vh;
+    background-image: linear-gradient(90deg,#616a99,transparent,#000000),linear-gradient(120deg, #097909 20%,transparent 20% 80%,#00d4ff 80%),linear-gradient(#d7ff00 20%,transparent 20% 80%,#610979 80%),url(../../Assets/images/IMG_20230902_204104_400.jpg);
+    background-size: 50vh 50vh;
+}

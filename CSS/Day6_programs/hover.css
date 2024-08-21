@@ -1,0 +1,35 @@
+#img1{
+    margin-left: 300px;
+    width: 500px;
+    height: 500px;
+    background-image: url(../../Assets/images/Charminar.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+#img2{
+    width: 500px;
+    height: 500px;
+    background-image: url(../../Assets/images/earth.png);
+    float: right;
+    background-size: 100% 100%;
+    margin-right: 300px;
+}
+#img3{
+    width: 500px;
+    height: 500px;
+    background-image: url(../../Assets/images/Naruto.webp);
+    float:inline-start;
+    background-size: 100% 100%;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+#img1:hover{
+    background-image: url(../../Assets/images/galaxy.png);
+}
+#img2:hover{
+    background-image: url(../../Assets/images/basketball.gif);
+}
+#img3:hover{
+    background-image: url(../../Assets/images/sun.png);
+}

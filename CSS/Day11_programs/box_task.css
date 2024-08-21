@@ -1,0 +1,14 @@
+body{
+    background-image: url(../../Assets/images/moon-knight.jpg);
+    background-size: 100% 190vh;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+
+}
+h1{
+    color:maroon;
+    margin-top: 40vh;
+    margin-left: 60vh;
+    margin-bottom: 100vh;
+    font-size: 12vh;
+}

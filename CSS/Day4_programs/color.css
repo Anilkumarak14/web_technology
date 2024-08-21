@@ -1,0 +1,17 @@
+body{
+    width: 100%;
+    height: 800vh;
+    background-image:url(../../Assets/images/sun.png),url(../../Assets/images/earth.png),url(../../Assets/images/galaxy.png);
+    background-size: 150% 180%,20% 8%,100% 100%;
+    background-position: -1000px -550px,left center,center;
+    background-repeat: no-repeat;
+    background-attachment: fixed,scroll,scroll;
+}
+img{
+    width: 280px;
+}
+marquee{
+    width: 300px;
+    float: right;
+    height: 700vh;
+}

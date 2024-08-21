@@ -1,0 +1,32 @@
+/* 
+input:read-only{
+    background-color: aquamarine;
+}
+input:disabled{
+    background-color: black;
+    color: aliceblue;
+}
+input:read-write{
+    background-color: blue;
+}
+input:required{
+    background-color: aqua;
+}*/
+input{
+    width: 25vh;
+    height: 5vh;
+    font-size: 20px;
+} 
+
+input:valid{
+    color: blue;
+}
+input:invalid{
+    color: red;
+}
+input:in-range{
+    color: greenyellow;
+}
+input:out-of-range{
+    color: red;
+}

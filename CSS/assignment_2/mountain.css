@@ -1,0 +1,24 @@
+body{
+    background-image: url(../../Assets/images/space-background.png);
+}
+#mountain1{
+    width: 50%;
+    height: 100vh;
+    transform: rotate(180deg) scale(1,-1);
+    
+}
+#mountain2{
+    width: 50%;
+    height: 100vh;
+    margin-left: -4.3px;
+}
+#mountain1:hover{
+    margin-left: -100px;
+    margin-bottom: -200px;
+    float: left;
+}
+#mountain2:hover{
+    margin-right: -200px;
+    margin-bottom: -200px;
+    float: right;
+}

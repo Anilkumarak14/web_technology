@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;    
+}
+
+#circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: brown;
+    transform: translateY(90vh);
+}
+#list{
+    display: none;
+    transition-property: transform;
+    transition-duration: 3s;
+}
+#circle:hover>#list{
+    display: block;
+    margin-left: 40px;
+    transform: translateY(-80px);
+}
+li{
+    width: 100px;
+    height: 25px;
+    background-color: aqua;
+    list-style-type: none;
+    margin-bottom: -20px;
+    color: blue;
+}
+li:hover{
+    transform: translateX(30px);
+}

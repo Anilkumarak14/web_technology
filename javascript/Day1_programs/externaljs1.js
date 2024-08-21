@@ -1,0 +1,1 @@
+document.getElementById("tag1").innerHTML = "<i>welcome to javascript</i>";

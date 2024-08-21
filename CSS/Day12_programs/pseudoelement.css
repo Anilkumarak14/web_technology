@@ -1,0 +1,50 @@
+input::placeholder{
+    color: aqua;
+    background-color: black;
+    font-size: 12px;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+}         
+
+h1::after{
+    content: "Miss";
+    color: cadetblue;
+}
+h1::before{
+    content: "Hey!!";
+    color: blue;
+}
+h2::after{
+    content: "Anil Kumar Degala";
+    color: chartreuse;
+}
+h1::selection{
+    background-color: black;
+    color: white;
+}
+li::marker{
+    content: "😈";
+}
+p::first-letter{
+    color: blueviolet;
+    font-size: 20vh;
+}
+p::first-line{
+    color: aqua;
+    font-size: 15vh;
+}
+p{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 40vh;
+}
+p::-webkit-scrollbar{
+    background-color:aqua;
+    width: 30px;
+    border-radius: 20px;
+}
+p::-webkit-scrollbar-thumb{
+    background-image: radial-gradient(black,purple);
+    width: 200vh;
+    height: 10vh;
+}

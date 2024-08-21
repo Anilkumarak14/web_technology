@@ -1,0 +1,51 @@
+/* css1 */
+
+
+
+/* #container{
+    width: 400px;
+    height: 400px;
+    background-image: url(../../Assets/images/rohit-sharma.jpg);
+    transition-property: background-image;
+    transition-duration: 3s;
+    background-size: 100% 100%;
+}
+#container:hover{
+    background-image:url(../../Assets/images/rohit.webp);
+}
+h1{
+    text-align: center;
+    transition-property: color;
+    transition-duration: 3s;
+    float: left;
+}
+#r264{
+    color:aliceblue;
+}
+#t20worldCup{
+    color: transparent;
+    float:right;
+}
+#container:hover #r264{
+    color: transparent;
+}
+#container:hover #t20worldCup{
+    color:blue;
+}
+ */
+
+
+
+ /* css2 */
+
+#container2{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    transition-property: width,background-color;
+    transition-duration: 2s,10s;
+    transition-delay: 1s,2s;
+}
+#container2:hover{
+    width: 100%;
+}

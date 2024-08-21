@@ -1,0 +1,6 @@
+#rad1{
+    width: 400px;
+    height: 400px;
+    background-image: radial-gradient(transparent 55%,#225588,#969696), url(../../Assets/images/earth.png);
+    background-size: 400px 400px;
+}

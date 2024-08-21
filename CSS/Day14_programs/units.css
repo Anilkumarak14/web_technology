@@ -1,0 +1,62 @@
+/* 
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#mm{
+    width: 30mm;
+    height: 30mm;
+    background-image: linear-gradient(orange, purple);
+}
+#cm{
+    width: 30cm;
+    height: 30cm;
+    background-image: linear-gradient(black,brown);
+}
+
+#in{
+    width: 30in;
+    height: 30in;
+    background-image: linear-gradient(gray,green);
+}
+
+#px{
+    width: 30px;
+    height: 30px;
+    background-image: linear-gradient(blue,aqua);
+}
+
+#pc{
+    width: 30pc;
+    height: 30pc;
+    background-image: linear-gradient(yellow, orange);
+}
+#pt{
+    width: 30pt;
+    height: 30pt;
+    background-image: linear-gradient(red, darkgreen);
+} */
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    cursor: pointer;
+}
+
+#per{
+    width: 80%;
+    height: 100px;
+    background-color: aqua;
+}
+
+#view{
+    width: 80vw;
+    height: 100px;
+    background-color: blue;
+}

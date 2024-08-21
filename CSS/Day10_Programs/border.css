@@ -1,0 +1,85 @@
+h1{
+    width: 50vh;
+    text-align: center;
+}
+
+#solid{
+    border-style: solid;
+    border-color: aqua;
+    border-width: 8px;
+}
+
+#double{
+    border-style: double;
+    border-color: aqua;
+    border-width: 8px;
+}
+
+#dashed{
+    border-style: dashed;
+    border-color: aqua;
+    border-width: 8px;
+}
+
+#dotted{
+    border-style: dotted;
+    border-color: aqua;
+    border-width: 8px;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+#groove{
+        border-style: groove;
+        border-color: aqua;
+        border-width: 8px;
+}
+
+#ridge{
+    border-style: ridge;
+    border-color: aqua;
+    border-width: 8px;
+}
+
+#inset{
+    border-style:inset;
+    border-color: aqua;
+    border-width: 8px;
+}
+
+
+#outset{
+    border-style: outset;
+    border-color: aqua;
+    border-width: 8px;
+}
+
+input{
+    background-color: aquamarine;
+    border-style: dotted;
+    border-radius: 3vh;
+    text-align: center;
+    outline-color: aqua;
+    outline-width: 3vh;
+    outline-style: groove;
+}
+
+#shorthand{
+    width: 20vh;
+    height: 20vh;
+    background-color: black;
+    border: 2vh double gray;
+}
+
+#shorthand2{
+    width: 20vh;
+    height: 20vh;
+    background-color: black;
+    float: left;
+    border-left: 5px groove yellow;
+
+}
